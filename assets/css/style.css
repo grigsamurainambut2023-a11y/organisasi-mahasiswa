@@ -1,0 +1,96 @@
+/* Pengaturan dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Warna header berdasarkan halaman */
+body.home header {
+    background-color: #1565c0;
+}
+
+body.about header {
+    background-color: #2e7d32;
+}
+
+body.program header {
+    background-color: #ff9800;
+}
+
+body.contact header {
+    background-color: #f44336;
+}
+
+/* Navigasi */
+nav {
+    background-color: #0d47a1;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Konten utama */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* warna footer berdasarkan halaman */
+body.home footer {
+    background-color: #1565c0;
+}
+
+body.about footer {
+    background-color: #2e7d32;
+}
+
+body.program footer {
+    background-color: #ff9800;
+}
+
+body.contact footer {
+    background-color: #f44336;
+}
